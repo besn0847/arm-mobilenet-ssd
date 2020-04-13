@@ -65,9 +65,8 @@ RUN mkdir -p /opt/opencv-${OPENCV_VERSION}/build && \
                 make && \
                 make install
 
- RUN cd /usr/python && \
-        python setup.py develop && \
-        mkdir /ssd && \
+RUN cd /usr/python && \
+        python3 setup.py develop && \
         rm -rf /opt/opencv-${OPENCV_VERSION}/ && \
         pip3 install flask
 
