@@ -28,7 +28,7 @@ curl -X PUT -F image_file=@./soccer.jpeg http://localhost:5000/process
  Class: sports ball with confidence: 0.33586207032203674
 ```
  
-Based on Alpine Linux 3.10, Python 3.7, Tensorflow Lite 1.15 and OpenCV 3.4.4.
+Based on Alpine Linux 3.8, Python 3.5, Tensorflow Lite 1.15 and OpenCV 3.4.4.
 
 #### Tributes
 1. https://www.hackster.io/news/benchmarking-tensorflow-lite-on-the-new-raspberry-pi-4-model-b-3fd859d05b98 
